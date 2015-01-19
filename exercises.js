@@ -51,7 +51,7 @@ function isVowel(char){
     return false;
 
 };
-isVowel(" ");
+isVowel();
 
 
 // // QUESTION 4 
@@ -64,9 +64,11 @@ isVowel(" ");
 // //   should return the string "tothohisos 
 // //   isos fofunon".
 
-// function rovarspraket(phrase){
-//     //...
-// }
+function rovarspraket(phrase){
+    //...
+}
+
+//UGH!!!!!!!!!!!!!!!!!!!!!!!
 
 // // QUESTION 5
 // // Define a function sum() and a 
@@ -79,29 +81,29 @@ isVowel(" ");
 // // ---------------------
 
 	
-// var array = [1,2,3,4,5,6,7,8,9,10];
-// 	var total = 0;
-// 	var sum = function (){
-// 		array.forEach(function(x){
-// 			total += x; // use "this" when something that's changing
-// 			console.log(total);
-// 			});
-// };
-// sum();
+var array = [1,2,3,4,5,6,7,8,9,10];
+	var total = 0;
+	var sum = function (){
+		array.forEach(function(x){
+			total += x; // use "this" when something that's changing
+			console.log(total);
+			});
+};
+sum();
 
-// function mult (){
+function mult (){
 
-// }
+}
 	
-// var array = [1,2,3,4,5,6,7,8,9,10];
-// 	var total = 1;
-// 	var mult = function (){
-// 		array.forEach(function(x){
-// 			total *= x; // use "this" when something that's changing
-// 			console.log(total);
-// 			});
-// };
-// mult();
+var array = [1,2,3,4,5,6,7,8,9,10];
+	var total = 1;
+	var mult = function (){
+		array.forEach(function(x){
+			total *= x; // use "this" when something that's changing
+			console.log(total);
+			});
+};
+mult();
 
 
 // // QUESTION 6
@@ -110,10 +112,16 @@ isVowel(" ");
 // // For example, reverse("jag testar") 
 // // should return the string "ratset gaj".
 // // ---------------------
+var array = [];
+function reverse(){
+	array.reverse ();
+	array.push ();
+};
+reverse("jesus");
 
-// function reverse(){
-//     //...
-// }
+function reverse (){
+	return.reverse("jesus");
+};
 
 // // QUESTION 7
 // // Write a function findLongestWord() 
