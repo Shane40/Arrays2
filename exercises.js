@@ -41,9 +41,36 @@ maxofThree(6, 100, 10);
 // // and returns true if it is a vowel, 
 // // false otherwise.
 
-// function isVowel(char){
-//     //...
-// }
+var vowelLetters = [];
+var vowels = ["a", "e", "i", "o", "u"];
+function isVowel(char){
+    forEach(var i = 0; i < vowels.length; i++){
+        if(letter === vowel[i]){
+        	vowelLetters.push(char);
+            return true;
+         }
+    }
+    return false;
+
+};
+char()
+
+var itemsMaterials = [];
+var item;
+
+items.forEach ( function (eight){
+	if (eight.materials.length > 7) {
+	itemsMaterials.push(eight);
+	}
+});
+	console.log(itemsMaterials);
+
+itemsMaterials.forEach ( function (answer) {
+	console.log (answer.title + " " + answer.materials);
+});
+
+
+
 
 
 // // QUESTION 4 
