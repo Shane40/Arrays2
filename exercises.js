@@ -122,6 +122,7 @@ reverse("jesus");
 function reverse (){
 	return.reverse("jesus");
 };
+//WRONG!!!
 
 // // QUESTION 7
 // // Write a function findLongestWord() 
